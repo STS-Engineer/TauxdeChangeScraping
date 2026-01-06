@@ -1,0 +1,6 @@
+Flask
+flasgger
+requests
+psycopg2-binary
+APScheduler
+python-dotenv
