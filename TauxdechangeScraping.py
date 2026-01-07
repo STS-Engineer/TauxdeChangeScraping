@@ -312,7 +312,7 @@ swagger_template = {
         "description": "API d'extraction des taux de change EUR depuis la BCE (eurofxref-daily.xml).",
     },
     "basePath": "/",
-    "schemes": ["http", "https"],
+    "schemes": ["https"],
 }
 
 swagger_config = {
