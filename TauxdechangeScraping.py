@@ -3,7 +3,6 @@ API Flask pour extraction des taux de change EUR de la BCE
 + extraction EUR -> TND depuis ExchangeRate-API (free latest endpoint)
 + EMAIL ALERTS en cas d'échec
 """
-
 import os
 import sys
 import asyncio
@@ -20,13 +19,11 @@ from flasgger import Swagger
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.cron import CronTrigger
 import json
-
 # ==============================
 # CONFIG asyncio (Windows)
 # ==============================
 if sys.platform.startswith("win") and sys.version_info < (3, 14):
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-
 # ==============================
 # LOGGING
 # ==============================
