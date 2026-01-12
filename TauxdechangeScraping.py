@@ -448,7 +448,7 @@ swagger_template = {
         "description": "API d'extraction des taux ECB + EUR→TND (ExchangeRate-API) avec alertes email.",
     },
     "basePath": "/",
-    "schemes": ["http", "https"],
+    "schemes": ["https"],
 }
 
 swagger_config = {
